@@ -1,3 +1,25 @@
+x11proto-xf86vidmode (2.3.1-2) unstable; urgency=low
+
+  * Mark x11proto-xf86vidmode-dev Multi-Arch: foreign
+  * Install .pc file to /usr/share/pkgconfig instead of
+    /usr/lib/pkgconfig
+
+ -- Steve Langasek <vorlon@debian.org>  Fri, 17 Jun 2011 09:19:57 -0700
+
+x11proto-xf86vidmode (2.3.1-1) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Rename the build directory to not include DEB_BUILD_GNU_TYPE for no
+    good reason.  Thanks, Colin Watson!
+  * Remove myself from Uploaders
+
+  [ Cyril Brulebois ]
+  * New upstream release.
+  * Add myself to Uploaders.
+  * Add pkg-config build-dep.
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Jan 2011 17:12:50 +0100
+
 x11proto-xf86vidmode (2.3-2) unstable; urgency=low
 
   * Upload to unstable.
